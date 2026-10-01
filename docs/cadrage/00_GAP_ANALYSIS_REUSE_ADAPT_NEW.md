@@ -130,11 +130,13 @@ Le dépôt est d’abord un **référentiel d’architecture SI**. Un runtime ne
 
 ## 8. Critères de sortie I00
 
+**Statut : I00 COMPLET — 2026-10-01**
+
 - [x] gap métier explicite ;
 - [x] signal déclencheur identifié ;
 - [x] matrice REUSE / ADAPT / NEW ;
 - [x] frontières de responsabilités ;
 - [x] classification des dépendances ;
 - [x] roadmap I00→I12 ;
-- [ ] synchronisation complète du dépôt P0 `cadrage_202682030`.
+- [x] synchronisation complète du dépôt P0 `cadrage_202682030` (D-072).
 
