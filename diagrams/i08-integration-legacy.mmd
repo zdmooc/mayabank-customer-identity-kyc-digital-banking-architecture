@@ -1,0 +1,14 @@
+flowchart LR
+  CH[Canaux] --> API[API Management]
+  API --> BFF[BFF]
+  BFF --> CUST[Customer Services]
+  CUST --> OUTBOX[(Outbox)]
+  OUTBOX --> KAFKA[Kafka/Event Bus]
+  KAFKA --> ACL[Anti-Corruption Layer]
+  ACL --> MQ[IBM MQ]
+  MQ --> CICS[CICS / COBOL]
+  CICS --> ORA[(Oracle)]
+  CICS --> MQ
+  MQ --> ACL
+  ACL --> KAFKA
+  KAFKA --> CUST
