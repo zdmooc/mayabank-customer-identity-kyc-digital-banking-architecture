@@ -1,0 +1,41 @@
+flowchart TB
+    subgraph EXPERIENCE[Expérience client]
+      ONB[Onboarding]
+      SELF[Selfcare]
+      CASE[Suivi de dossier]
+    end
+    subgraph CUSTOMER[Connaissance Client]
+      PARTY[Party / Customer]
+      REL[Relationship]
+      C360[Customer 360]
+      CONS[Consentements]
+    end
+    subgraph KYC[KYC / KYB]
+      IDV[Vérification identité]
+      CDD[CDD / Profil]
+      UBO[Bénéficiaires effectifs]
+      SCREEN[Screening]
+      DEC[Décision / Revue]
+      REVIEW[Periodic Review]
+    end
+    subgraph EVIDENCE[Preuves]
+      DOC[Documents]
+      AUDIT[Audit]
+      POLICY[Version de politique]
+    end
+    ONB --> PARTY
+    ONB --> IDV
+    ONB --> CDD
+    SELF --> PARTY
+    SELF --> CONS
+    CASE --> DEC
+    PARTY --> REL
+    REL --> C360
+    CDD --> UBO
+    UBO --> SCREEN
+    IDV --> DEC
+    SCREEN --> DEC
+    DEC --> REVIEW
+    DEC --> DOC
+    DEC --> AUDIT
+    DEC --> POLICY
