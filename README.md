@@ -4,7 +4,7 @@
 
 ## Statut
 
-**I00 — CADRAGE / GAP ANALYSIS : EN COURS**
+**I00 — CADRAGE / GAP ANALYSIS : COMPLET**
 
 Ce dépôt est créé à la suite d’un signal de mission concret portant sur un rôle d’Architecte SI Banque dans le domaine **Connaissance Client & Digital**.
 
@@ -118,7 +118,7 @@ Trajectoire / DAA / ADR
 
 | Itération | Contenu | Statut |
 |---|---|---|
-| I00 | Gap analysis, REUSE/ADAPT/NEW, frontières, inscription portfolio | **EN COURS** |
+| I00 | Gap analysis, REUSE/ADAPT/NEW, frontières, inscription portfolio | **COMPLET** |
 | I01 | Scope, parties prenantes, exigences, truth boundaries | À faire |
 | I02 | Customer / KYC / KYB / AML / consentement | À faire |
 | I03 | Parcours onboarding, B2C, B2B, selfcare | À faire |
