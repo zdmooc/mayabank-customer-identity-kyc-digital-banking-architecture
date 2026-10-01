@@ -4,7 +4,7 @@
 
 ## Statut
 
-**I00 — CADRAGE / GAP ANALYSIS : COMPLET**
+**BASELINE I00→I12 : COMPLETE / PORTFOLIO READY**
 
 Ce dépôt est créé à la suite d’un signal de mission concret portant sur un rôle d’Architecte SI Banque dans le domaine **Connaissance Client & Digital**.
 
@@ -119,18 +119,18 @@ Trajectoire / DAA / ADR
 | Itération | Contenu | Statut |
 |---|---|---|
 | I00 | Gap analysis, REUSE/ADAPT/NEW, frontières, inscription portfolio | **COMPLET** |
-| I01 | Scope, parties prenantes, exigences, truth boundaries | À faire |
-| I02 | Customer / KYC / KYB / AML / consentement | À faire |
-| I03 | Parcours onboarding, B2C, B2B, selfcare | À faire |
-| I04 | Capability Map + architecture fonctionnelle | À faire |
-| I05 | Architecture applicative + bounded contexts | À faire |
-| I06 | Customer 360 / MDM / architecture data | À faire |
-| I07 | CIAM / IAM / sécurité / RGPD | À faire |
-| I08 | API / Kafka / MQ / COBOL-CICS / legacy modernization | À faire |
-| I09 | Architecture technique et consommation plateforme commune | À faire |
-| I10 | NFR / résilience / DORA / observabilité | À faire |
-| I11 | AS-IS → GAP → TARGET / trajectoire / DAA / ADR | À faire |
-| I12 | Pack professionnel A3 / pitch / démo d’architecture | À faire |
+| I01 | Scope, parties prenantes, exigences, truth boundaries | **COMPLET** |
+| I02 | Customer / KYC / KYB / AML / consentement | **COMPLET** |
+| I03 | Parcours onboarding, B2C, B2B, selfcare | **COMPLET** |
+| I04 | Capability Map + architecture fonctionnelle | **COMPLET** |
+| I05 | Architecture applicative + bounded contexts | **COMPLET** |
+| I06 | Customer 360 / MDM / architecture data | **COMPLET** |
+| I07 | CIAM / IAM / sécurité / RGPD | **COMPLET** |
+| I08 | API / Kafka / MQ / COBOL-CICS / legacy modernization | **COMPLET** |
+| I09 | Architecture technique et consommation plateforme commune | **COMPLET** |
+| I10 | NFR / résilience / DORA / observabilité | **COMPLET** |
+| I11 | AS-IS → GAP → TARGET / trajectoire / DAA / ADR | **COMPLET** |
+| I12 | Pack professionnel A3 / pitch / démo d’architecture | **COMPLET** |
 
 ## Livrable final attendu
 
@@ -147,3 +147,13 @@ Un dossier d’architecture SI bancaire capable de démontrer, de manière cohé
 ---
 
 **Langue de travail : français.**
+
+## Statut final de la baseline
+
+- **I00→I12 : COMPLET**
+- **Architecture : REFERENCE_ARCHITECTURE**
+- **Portfolio : PORTFOLIO_READY**
+- **Runtime lourd dédié : non requis pour la baseline**
+- **Prochaine extension : uniquement sur signal mission ou gap de preuve**
+
+Voir [I12 Acceptance](docs/evidence/I12_ACCEPTANCE.md) et [Mission Alignment](portfolio/MISSION_ALIGNMENT.md).
