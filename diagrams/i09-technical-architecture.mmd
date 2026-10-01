@@ -1,0 +1,21 @@
+flowchart TB
+  WEB[Web/Mobile/Conseiller] --> EDGE[WAF / API Management]
+  EDGE --> BFF[BFF]
+  BFF --> ONB[Onboarding]
+  BFF --> PARTY[Party Customer]
+  BFF --> C360[Customer 360]
+  ONB --> KYC[KYC Case]
+  PARTY --> REL[Relationship]
+  KYC --> CONS[Consent]
+  PARTY --> OUT[Outbox]
+  KYC --> OUT
+  OUT --> KAFKA[Kafka Shared]
+  KAFKA --> MQ[IBM MQ]
+  MQ --> CORE[Core CICS COBOL]
+  PARTY --> PG[(PostgreSQL)]
+  KYC --> PG
+  KYC --> OBJ[(Object Storage)]
+  EDGE --> CIAM[CIAM / OIDC]
+  ONB --> OBS[OTel/Prom/Grafana]
+  PARTY --> OBS
+  KYC --> OBS
