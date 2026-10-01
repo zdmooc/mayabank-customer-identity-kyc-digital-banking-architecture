@@ -1,0 +1,21 @@
+flowchart TB
+  WEB[Web / Mobile] --> BFF[BFF]
+  AGENT[Portail conseiller] --> BFF
+  BFF --> GW[API Management]
+  GW --> ONB[Onboarding]
+  GW --> PARTY[Party/Customer]
+  GW --> CONS[Consent]
+  GW --> C360[Customer 360]
+  ONB --> KYC[KYC Case]
+  ONB --> PARTY
+  KYC --> IDV[Identity Provider]
+  KYC --> SCR[Screening]
+  KYC --> DOC[Evidence]
+  KYC --> REV[Manual Review]
+  PARTY --> REL[Relationship]
+  PARTY --> BUS[Event Bus]
+  KYC --> BUS
+  CONS --> BUS
+  BUS --> C360
+  BUS --> MQ[IBM MQ]
+  MQ --> CORE[Core Banking / Legacy]
