@@ -50,7 +50,9 @@ Le produit possède maintenant un contrat concret de consommation de la platefor
 Cette extension ne change pas le Decision Gate initial : aucun runtime lourd Customer/KYC n'est requis pour fermer la baseline.
 
 Claim additionnel autorisé :
-`SHARED_PLATFORM_CONSUMER_CONTRACT_IMPLEMENTED`.
+`STATIC_CONSUMER_CONTRACT_VERIFIED`.
+
+CI observée : `validate-platform-consumer` run `37036053381` — **SUCCESS**.
 
 Claim toujours non autorisé :
 `CUSTOMER_KYC_CRC_RUNTIME_PROVEN` tant qu'une exécution dédiée n'a pas été observée.
