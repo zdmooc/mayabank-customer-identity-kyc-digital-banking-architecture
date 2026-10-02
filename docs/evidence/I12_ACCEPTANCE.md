@@ -38,3 +38,19 @@ Un vertical Customer/KYC sera ajouté uniquement si une mission exige une preuve
 - runtime KYC production ;
 - HA multi-site prouvée ;
 - produit KYC réel du marché intégré.
+
+
+## Extension post-baseline — Shared Platform consumer contract
+
+**Date : 2026-10-02**  
+**Statut : IMPLEMENTED / STATIC_VALIDATED**
+
+Le produit possède maintenant un contrat concret de consommation de la plateforme commune sous `platform-consumption/`.
+
+Cette extension ne change pas le Decision Gate initial : aucun runtime lourd Customer/KYC n'est requis pour fermer la baseline.
+
+Claim additionnel autorisé :
+`SHARED_PLATFORM_CONSUMER_CONTRACT_IMPLEMENTED`.
+
+Claim toujours non autorisé :
+`CUSTOMER_KYC_CRC_RUNTIME_PROVEN` tant qu'une exécution dédiée n'a pas été observée.
