@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-10-02 — Shared Platform consumer onboarding
+
+- added explicit capability-consumption contract;
+- added Kustomize product-consumer surface;
+- wired Shared OIDC and Shared OTel endpoints;
+- added opt-in NetworkPolicy and least-privilege RBAC;
+- documented secret-consumption boundary;
+- added GitHub Actions consumer validation;
+- aligned Shared Platform Argo CD onboarding;
+- promoted to `STATIC_CONSUMER_CONTRACT_VERIFIED` after run `37036053381` SUCCESS;
+- no Customer/KYC runtime claim added.
+
+
 ## 2026-10-01 — Baseline I00→I12
 
 ### Added
