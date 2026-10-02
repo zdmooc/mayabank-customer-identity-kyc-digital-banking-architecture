@@ -4,3 +4,5 @@ resources:
   - namespace.yaml
   - platform-config.yaml
   - networkpolicy.yaml
+  - serviceaccount.yaml
+  - rbac.yaml
