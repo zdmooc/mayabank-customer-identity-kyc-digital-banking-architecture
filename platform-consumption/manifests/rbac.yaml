@@ -1,0 +1,24 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: shared-platform-config-read
+  namespace: customer-digital
+rules:
+  - apiGroups: [""]
+    resources: ["configmaps"]
+    resourceNames: ["shared-platform-endpoints"]
+    verbs: ["get"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: customer-kyc-runtime-platform-config
+  namespace: customer-digital
+subjects:
+  - kind: ServiceAccount
+    name: customer-kyc-runtime
+    namespace: customer-digital
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: shared-platform-config-read
