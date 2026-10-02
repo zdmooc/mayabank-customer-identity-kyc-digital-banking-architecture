@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: shared-platform-endpoints
+  namespace: customer-digital
+data:
+  OIDC_ISSUER: https://keycloak.apps-crc.testing/realms/mayabank
+  OTEL_EXPORTER_OTLP_ENDPOINT: http://otel-collector.shared-observability.svc:4318
+  OTEL_EXPORTER_OTLP_PROTOCOL: http/protobuf
+  API_MANAGEMENT_MODE: SPECIALIZED_PLATFORM
