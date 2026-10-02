@@ -178,3 +178,19 @@ Le scaling horizontal ne remplace pas la correctness des transactions.
 - [x] secrets ;
 - [x] GitOps ;
 - [x] scalabilité.
+
+
+## 9. Consumer profile matérialisé — 2026-10-02
+
+La décision `CONSUME_SHARED` est désormais matérialisée sous `platform-consumption/` :
+
+- `capability-consumption.yaml` : contrat de capacités ;
+- `manifests/namespace.yaml` : namespace produit de référence ;
+- `manifests/platform-config.yaml` : issuer OIDC et endpoint OTLP partagés ;
+- `manifests/networkpolicy.yaml` : egress opt-in vers Keycloak, Shared OTel et API Management ;
+- `manifests/kustomization.yaml` : surface de rendu ;
+- workflow `validate-platform-consumer.yml` : validation CI.
+
+Niveau de preuve : `IMPLEMENTED / STATIC_VALIDATED`.
+
+Aucun runtime Customer/KYC n'est revendiqué tant qu'un déploiement observé n'a pas produit sa propre preuve.
