@@ -154,6 +154,7 @@ Un dossier d’architecture SI bancaire capable de démontrer, de manière cohé
 - **Architecture : REFERENCE_ARCHITECTURE**
 - **Portfolio : PORTFOLIO_READY**
 - **Runtime lourd dédié : non requis pour la baseline**
-- **Prochaine extension : uniquement sur signal mission ou gap de preuve**
+- **Shared Platform consumer profile : IMPLEMENTED / STATIC_VALIDATED** (`platform-consumption/`)
+- **Prochaine extension runtime : uniquement sur signal mission ou gap de preuve**
 
-Voir [I12 Acceptance](docs/evidence/I12_ACCEPTANCE.md) et [Mission Alignment](portfolio/MISSION_ALIGNMENT.md).
+Voir [I12 Acceptance](docs/evidence/I12_ACCEPTANCE.md), [Mission Alignment](portfolio/MISSION_ALIGNMENT.md) et [Shared Platform Consumption Profile](platform-consumption/README.md).
