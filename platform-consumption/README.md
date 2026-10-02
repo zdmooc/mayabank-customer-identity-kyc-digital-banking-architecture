@@ -48,10 +48,17 @@ The repository workflow `.github/workflows/validate-platform-consumer.yml` valid
 - Kustomize render;
 - required shared endpoints;
 - no embedded client secret;
-- namespace/network-policy consistency.
+- namespace/network-policy consistency;
+- least-privilege ServiceAccount/Role/RoleBinding surface;
+- secret-material absence.
 
 ## Truth boundary
 
 This profile is **not** a Customer/KYC runtime proof. It proves that the product repository has an explicit, deployable and CI-validated Shared Platform consumption contract.
 
 A runtime claim requires an observed deployment and evidence markers from the target environment.
+
+
+## Secrets
+
+See `SECRETS.md`. No secret values are present in this profile.
