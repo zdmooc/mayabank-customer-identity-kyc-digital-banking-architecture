@@ -4,15 +4,30 @@ metadata:
   name: allow-shared-platform-egress
   namespace: customer-digital
 spec:
-  podSelector: {}
+  podSelector:
+    matchLabels:
+      platform.mayabank.example/shared-egress-client: "true"
   policyTypes:
     - Egress
   egress:
     - to:
         - namespaceSelector:
             matchLabels:
-              platform.mayabank.example/capability: identity
+              kubernetes.io/metadata.name: keycloak-system
+      ports:
+        - protocol: TCP
+          port: 8080
     - to:
         - namespaceSelector:
             matchLabels:
-              platform.mayabank.example/capability: observability
+              kubernetes.io/metadata.name: shared-observability
+      ports:
+        - protocol: TCP
+          port: 4318
+    - to:
+        - namespaceSelector:
+            matchLabels:
+              kubernetes.io/metadata.name: mayabank-api
+      ports:
+        - protocol: TCP
+          port: 8000
