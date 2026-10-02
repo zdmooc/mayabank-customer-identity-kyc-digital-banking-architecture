@@ -55,3 +55,24 @@ Legacy adapter
 ```
 
 Ce vertical reste optionnel tant qu’un besoin d’entretien ou une preuve manquante ne l’exige pas.
+
+
+## Extension post-baseline — E1 Shared Platform Consumer
+
+**Status : COMPLETE — 2026-10-02**
+
+E1 matérialise la consommation de la plateforme commune sans modifier la baseline I00→I12 :
+
+- capability consumption contract;
+- Kustomize deployable surface;
+- Shared OIDC / Shared OTel endpoints;
+- NetworkPolicy opt-in;
+- least-privilege RBAC;
+- secrets contract;
+- CI validation;
+- Shared Platform Argo CD onboarding contract.
+
+Evidence level:
+`STATIC_CONSUMER_CONTRACT_VERIFIED`.
+
+Aucun runtime Customer/KYC n'est requis ni revendiqué pour E1.
