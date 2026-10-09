@@ -53,3 +53,16 @@
 - `diagrams/i05-application-architecture.mmd`
 - `diagrams/i08-integration-legacy.mmd`
 - `diagrams/i09-technical-architecture.mmd`
+
+---
+
+## Soluxan — architecture fonctionnelle / applicative bancaire (S1–S3, 2026-10-09)
+- [S1 — Matrice FR → capacités / processus / applications / acceptation](traceability/SOLUXAN_S1_EXIGENCES_PROCESSUS_APPLICATION_TESTS_2026-10-09.md)
+- [S1 — Scénarios Gherkin à exécuter](traceability/SOLUXAN_S1_CAS_USAGE_ET_CRITERES_GHERKIN_2026-10-09.md)
+- [S2 — Dossier de choix d'architecture Customer/legacy](decision/SOLUXAN_S2_DOSSIER_CHOIX_ARCHITECTURE_CUSTOMER_LEGACY_2026-10-09.md)
+- [S2 — Deep dive logiciel Payment UNKNOWN](decision/SOLUXAN_S2_CAS_LOGICIEL_PAIEMENT_UNKNOWN_2026-10-09.md)
+- [S3 — Dossier d'entretien 10 minutes](../portfolio/SOLUXAN_S3_DOSSIER_ENTRETIEN_ARCHITECTE_SI_2026-10-09.md)
+- [S3 — Modèle BPMN 2.0 et traçabilité HOPEX](https://github.com/zdmooc/hopex-aquila-enterprise-architecture-masterbook/blob/main/07-business-process-analysis/models/MAYABANK_CUSTOMER_KYC_BPMN_TRACEABILITY_2026-10-09.md)
+
+**Niveau de preuve** : dossier référence documentaire complet ; tests Gherkin Customer non exécutés, BPMN non importé en outil client ; aucune revendication production.
+
