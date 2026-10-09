@@ -158,3 +158,13 @@ Un dossier d’architecture SI bancaire capable de démontrer, de manière cohé
 - **Prochaine extension runtime : uniquement sur signal mission ou gap de preuve**
 
 Voir [I12 Acceptance](docs/evidence/I12_ACCEPTANCE.md), [Mission Alignment](portfolio/MISSION_ALIGNMENT.md) et [Shared Platform Consumption Profile](platform-consumption/README.md).
+
+---
+
+## Complément Soluxan — S1/S2/S3 du 09/10/2026
+
+**Status : REFERENCE_ARCHITECTURE / INTERVIEW_PACK_READY.** Les itérations S1/S2/S3 ajoutent une traçabilité complète FR-01…FR-10 / AC-01…AC-10, un dossier de choix Customer↔core legacy A/B/C, un cas logiciel Payment UNKNOWN lié aux preuves existantes, un modèle BPMN 2.0 documentaire dans HOPEX et un pack entretien de 10 minutes. **Ce pack ne change pas la baseline I00→I12**, ne déclenche aucun runtime Customer/KYC et ne prouve aucune architecture client.
+
+- [Index des preuves S1/S2/S3](docs/INDEX.md#soluxan--architecture-fonctionnelle--applicative-bancaire-s1s3-2026-10-09)
+- [Dossier d'entretien Soluxan](portfolio/SOLUXAN_S3_DOSSIER_ENTRETIEN_ARCHITECTE_SI_2026-10-09.md)
+
